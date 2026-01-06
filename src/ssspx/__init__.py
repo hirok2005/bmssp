@@ -21,6 +21,7 @@ from .io import load_graph, read_graph, write_graph
 from .logger import Logger, NoopLogger, StdLogger
 from .solver import SolverConfig, SolverMetrics, SSSPResult, SSSPSolver
 from .transform import constant_outdegree_transform
+from .path import reconstruct_path_basic
 
 __version__ = "0.1.0"
 
@@ -32,6 +33,7 @@ __all__ = [
     "SolverConfig",
     "SolverMetrics",
     "constant_outdegree_transform",
+    "reconstruct_path_basic",
     "dijkstra_reference",
     "Logger",
     "NoopLogger",
